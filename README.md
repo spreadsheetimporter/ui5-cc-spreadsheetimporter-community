@@ -1,5 +1,10 @@
 # UI5 `ui5-cc-spreadsheetimporter`
 
+> [!IMPORTANT]
+> This repository is an archive of the 1.7.4 Community Edition. The [maintained UI5 Spreadsheet Importer](https://github.com/spreadsheetimporter/ui5-cc-spreadsheetimporter) is the community project again. Version 2.5.0 is available under Apache 2.0, including for production use.
+>
+> Use the [installation guide](https://docs.spreadsheet-importer.com/ui5/pages/GettingStarted/) to get started or the [maintained issue tracker](https://github.com/spreadsheetimporter/ui5-cc-spreadsheetimporter/issues) to report a problem.
+
 This monorepo houses the UI5 Component `ui5-cc-spreadsheetimporter`.
 
 `ui5-cc-spreadsheetimporter` is a UI5 Component designed for the integration of Spreadsheet Upload functionality into Fiori Elements and other UI5 Apps.  
@@ -7,7 +12,7 @@ It enables the bulk upload of data, independent of the backend, OData version, a
 Rather than submitting the file, the control only submits the extracted data.  
 The control's integration aims for simplicity, requiring minimal to no configuration in the ideal scenario.
 
-Our goal is to support as many Fiori Scenarios and UI5 Versions as possible. You can see the currently [supported versions here](https://docs.spreadsheet-importer.com/pages/SupportVersions/).
+Our goal is to support as many Fiori Scenarios and UI5 Versions as possible. You can see the currently [supported versions here](https://docs.spreadsheet-importer.com/ui5/pages/SupportVersions/).
 
 ![Spreadsheet Upload Dialog](/images/SpreadsheetUploadDialog.png "Spreadsheet Upload Dialog")
 
@@ -32,7 +37,7 @@ If you encounter implementation issues or bugs, you can open an issue [here](htt
 
 The development documentation can be found here:
 
-https://docs.spreadsheet-importer.com/pages/Development/GettingStarted/
+https://docs.spreadsheet-importer.com/ui5/pages/Development/GettingStarted/
 
 ## Quickstart
 
@@ -49,11 +54,7 @@ See the [CHANGELOG.md](https://github.com/spreadsheetimporter/ui5-cc-spreadsheet
 
 # License
 
-Versions 1.x (including 1.7.x and below) are licensed under the Apache License 2.0 (see the [v1.x branch](https://github.com/spreadsheetimporter/ui5-cc-spreadsheetimporter/tree/v1.x)).
-
-Versions 2.0.0 and above are licensed under the SpreadsheetImporter Commercial License. Non-production use is free; production or resale requires a paid license.
-
-For production or commercial usage, please see https://spreadsheet-importer.com/ or contact marian@marianzeis.de.
+The 1.x code in this archive is licensed under the [Apache License 2.0](LICENSE). The maintained project returned to Apache 2.0 in version 2.5.0. Previously published versions 2.0.0 through 2.4.0 retain their respective commercial licenses. See the [license history](https://github.com/spreadsheetimporter/ui5-cc-spreadsheetimporter/blob/main/LICENSE.md).
 
 # Open in GitHub Codespaces
 
